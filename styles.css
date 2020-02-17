@@ -2,7 +2,7 @@ body{
     background-image: url("https://images.pexels.com/photos/1073091/pexels-photo-1073091.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
     background-size: auto;
     background-repeat: no-repeat;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
 }
 ul {
     list-style-type: none;
@@ -11,7 +11,12 @@ ul {
     overflow: hidden;
     background-color: #333;
     font-size:25px;
-    margin-left:300px;
+    margin-left:350px;
+    padding-top:20px;
+    padding-right:20px;
+    justify-content: space-between;
+    align-self: center;
+    align-content: center;
     
     
   }
@@ -40,7 +45,7 @@ ul {
   p{
       color:white;
   }
-  #nav{
-      position: relative;
-      bottom:70px;
+  #doc{
+      position: absolute;
+      top:0px;
   }
