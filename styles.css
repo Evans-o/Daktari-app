@@ -1,8 +1,8 @@
-body{
-    background-image: url("https://images.pexels.com/photos/1073091/pexels-photo-1073091.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
-    background-size: auto;
+#body{
+    background-image: url("https://images.pexels.com/photos/36029/aroni-arsa-children-little.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+    background-size: cover;
     background-repeat: no-repeat;
-    /* overflow-x: hidden; */
+    height:3000px;
 }
 ul {
     list-style-type: none;
@@ -11,7 +11,7 @@ ul {
     overflow: hidden;
     background-color: #333;
     font-size:25px;
-    margin-left:350px;
+    margin-left:200px;
     padding-top:20px;
     padding-right:20px;
     justify-content: space-between;
@@ -48,4 +48,9 @@ ul {
   #doc{
       position: absolute;
       top:0px;
+      color:black;
   }
+  #doc,p{
+      color:white;
+    }
+  
